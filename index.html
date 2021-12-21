@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<!-- form build in bootstrap -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+
+<body>
+    <nav class='navbar navbar-default'>
+        <div class='container'>
+            <div class="navbar-header">
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+            <div class='page-header'>
+                <h1>Biblioteka</h1>
+            </div>
+
+            <div class='panel'>
+                <div class='panel-body'>
+                    <form id="form">
+                        <div class='form-group'>
+                            <label>Tytuł książki</label>
+                            <input type="text" class='form-control' id='topic' name="topic">
+                            <label>Autor książki</label>
+                            <input type="text" class='form-control' id='author' name="author">
+                            <label>Priorytet przeczytania</label>
+                            <input type="number" min="1" max="5" class='form-control' id='priority' name="priority">
+                            <label>Lista z kategoriami</label>
+                            <select class='form-control' id='category' name="category">
+                                <option>
+                                    Wybierz kategorię</option>
+                                <option>Autobiografia</option>
+                                <option>Dokument</option>
+                                <option>Kryminał</option>
+                            </select>
+                        </div>
+                        <p>
+                            <button class='btn btn-primary' type="submit">Wyślij</button>
+                        </p>
+                        <div class="info-container">
+                            <div class="error-message">
+                            </div>
+                            <div class="success-message">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
