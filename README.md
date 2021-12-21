@@ -20,7 +20,7 @@
 > To run this project:
 - Create [*fork*](https://guides.github.com/activities/forking/)
 - Clone project on your computer. Use command in Git Bash `git clone url_project`. URL of project can find on github site of project after click button "Clone or download"
-
+- Open index in Google Chrome
 
 ## Project Status
 - Project is complete
